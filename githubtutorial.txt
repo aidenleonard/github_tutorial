@@ -1,0 +1,75 @@
+cd to the directory to pull the repository 
+
+    ssh-keygen -t rsa -C "atleonard97@gmail.com"        
+
+ssh key will appear in .pub file. don't name/password the file. add to github account. 
+
+find the ssh command at the repository:
+
+    git clone git@github.com:aidenleonard/Constant-Pressure-Fixture.git
+
+when done with changes, add, commit and push. 
+    git add "file names"    (optional?)
+
+    git commit      (git commit -m "description")  (-a for all) 
+
+    git push    (--all)
+
+
+----------------------------------------------------------------------------
+
+git status      status of directory: repo good, modified files, how to commit
+
+git pull        fetches updates and merges into current repo 
+
+
+
+for a url: 
+git remote add origin ---URL of repository--- 
+
+git push -u origin BRANCHNAME       might be wrong (try using main as BRANCHNAME
+
+
+
+
+ls 
+
+pwd 
+
+cd 
+
+git clone ___link___
+
+touch example.txt    (created a file) 
+
+mkdir     (make directory)
+
+git init
+
+git status   (where ur at) 
+
+git add .  (add everything) 
+
+git status (will show green) 
+
+git commit    		(sends you to standard editor (vim) 
+
+press i    (insert comment)   
+
+press esc 
+
+at the bottom type   :wq!    (leave and save) 
+
+:qa!  (leave and don't save) 
+
+
+git remote add origin ---URL of repository--- 
+
+git push -u origin master
+
+
+
+-----------
+
+
+git pull   - updates your local library to the repo (use frequently with teamwork) 
