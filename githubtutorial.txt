@@ -73,3 +73,10 @@ git push -u origin master
 
 
 git pull   - updates your local library to the repo (use frequently with teamwork) 
+
+----------
+----- to rename branch "master" to "main"------
+git branch -m master main
+git fetch origin
+git branch -u origin/main main
+git remote set-head origin -a
